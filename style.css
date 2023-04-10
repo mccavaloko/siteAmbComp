@@ -6,12 +6,15 @@
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-body{
-    height: 100vh;
+#inicio{
     background-color: black;
     background-image: url('imagens/servidorimagem.jpg');
     background-size: cover;
     background-position: center;
+}
+
+body{
+    height: 100vh;
 }
 
 li{
@@ -56,6 +59,7 @@ header{
 .navbar .links{
     display: flex;
     gap: 2rem;
+    margin-left: -110px;
 }
 
 .navbar .toggle_btn{
@@ -151,6 +155,45 @@ section#texto{
     }
 
     .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+}
+
+@media(max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
+
+/* Outras páginas */
+
+.navbar2{
+    background-color: rgba(0, 0 ,0, 0.7);
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#a100{
+    padding: 0 0 0 0;
+    width: 100vw;
+}
+/* Desing responsivo */
+@media(max-width: 992px){
+    .navbar2 .links,
+    .navbar2 .action_btn{
+        display: none;
+    }
+
+    .navbar2 .toggle_btn{
         display: block;
     }
 
