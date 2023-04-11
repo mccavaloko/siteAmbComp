@@ -1,36 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>AmbComp</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
+
 <body>
-    <header id="a100">
-        <div class="navbar2">
-            <div class="logo"><a href="#"><img src="imagens/logo.png" width="30" height="30" alt=""> Cotemig CEG</a></div>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html"><img src="imagens/logo.png" width="30" height="30" alt=""> Cotemig CEG</a></div>
             <ul class="links">
                 <li><a href="index.html">Início</a></li>
-                <li><a href="componentes.html">Componentes</a></li>
-                <li><a href="#">Montar PC</a></li>
-                <li><a href="#">Sobre Nós</a></li>
+                <li class="componentes"><a href="componentes.html">Componentes</a></li>
+                <li><a href="montarpc.html">Montar PC</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
             </ul>
-            <a href="#" class="action_btn">Contato</a>
+            <a href="contato.html" class="action_btn">Contato</a>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
         <div class="dropdown_menu">
-            <li><a href="index.html ">Início</a></li>
-            <li><a href="componentes.html">Componentes</a></li>
-            <li><a href="#">Montar PC</a></li>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="#" class="action_btn">Contato</a></li>
+            <li><a href="index.html">Início</a></li>
+            <li class="componentes"><a href="componentes.html">Componentes</a></li>
+            <li><a href="montarpc.html">Montar PC</a></li>
+            <li><a href="sobrenos.html">Sobre Nós</a></li>
+            <li><a href="contato.html" class="action_btn">Contato</a></li>
         </div>
     </header>
+    <main>
+        <div>
+            <h1>Componentes</h1>
+            <div class="container">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="imagens/placa-mae.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Placa Mãe</h2>
+                        <p>Placa mãe é o componente principal de um computador, pois é ela que conecta todos os outros componentes. Ela é responsável por controlar o fluxo de dados entre os componentes, além de fornecer energia para eles.</p>
+                        <a href="placa-mae.html">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="imagens/processador.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Processador</h2>
+                        <p>O processador é o cérebro do computador. Ele é responsável por executar todas as tarefas do computador, como abrir programas, navegar na internet, etc.</p>
+                        <a href="processador.html">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="imagens/memoria-ram.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Memória RAM</h2>
+                        <p>A memória RAM é um componente de hardware que armazena dados e instruções que são utilizados pelo processador. Ela é responsável por armazenar informações temporariamente, ou seja, enquanto o computador estiver ligado.</p>
+                        <a href="memoria-ram.html">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="imagens/placa-de-video.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Placa de Vídeo</h2>
+                        <p>A placa de vídeo é um componente de hardware que é responsável por gerar a imagem que é exibida na tela do computador
+        </div>
+    </main>
     <script src="script.js">
         
     </script>
