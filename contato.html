@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="imagens/logo.png" width="30" height="30" alt=""/>
+              Cotemig CEG</a
+            >
+          </div>
+          <ul class="links">
+            <li><a href="index.html">Início</a></li>
+            <li class="componentes">
+              <a href="componentes.html">Componentes</a>
+            </li>
+            <li><a href="montarpc.html">Montar PC</a></li>
+            <li><a href="sobrenos.html">Sobre Nós</a></li>
+          </ul>
+          <a href="contato.html" class="action_btn">Contato</a>
+          <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <div class="dropdown_menu">
+          <li><a href="index.html">Início</a></li>
+          <li class="componentes"><a href="componentes.html">Componentes</a></li>
+          <li><a href="montarpc.html">Montar PC</a></li>
+          <li><a href="sobrenos.html">Sobre Nós</a></li>
+          <li><a href="contato.html" class="action_btn">Contato</a></li>
+        </div>
+      </header>
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Contatar</h3>
+          <h4>Nos contate hoje, responderemos em menos de 24h!</h4>
+          <fieldset>
+            <input placeholder="Seu nome" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Seu email" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Seu telefone" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Assunto" type="text" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Escreva sua mensagem aqui...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Enviando">Enviar</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="contato">
+        <h2>Outros meios de contato</h2>
+        <p>Telefone: (31) 3333-3333</p>
+        <p>Whatsapp: (31) 99999-9999</p>
+        <p>Endereço: Rua dos Bobos, nº 0</p>
+        <p>Email: 12302147@aluno.cotemig.com.br</p>
+      </div>
+      <script src="script.js">
+        
+      </script>
+</body>
+</html>
