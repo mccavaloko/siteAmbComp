@@ -487,7 +487,24 @@ main{
 
 /* RESPONSIVE QUERIES */
 
+@media (min-width: 280px) {
+  .meio{
+    display: block;
+    justify-content: center;
+  }
+  .title-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .user-follow-info {
+    margin-top: 6px;
+  }
+}
+
 @media (min-width: 320px) {
+
   .title-flex {
     display: flex;
     flex-direction: column;
@@ -526,7 +543,11 @@ main{
   }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 768px) {
+  .meio{
+    display: flex;
+    justify-content: center;
+  }
   .title-flex {
     display: flex;
     flex-direction: row;
@@ -604,7 +625,7 @@ main{
 
 .modal-header {
   padding: 20px 40px;
-  background: #546E7A;
+  background: #76ad57;
   color: #ffffff;
 }
 
@@ -656,4 +677,15 @@ button {
   border: 1px solid #333333;
   outline: none;
   color: #333333;
+}
+
+.modal-body p{
+  margin: 30px;
+  border-bottom: 1px dashed #000;
+}
+
+.modal-body li{
+  margin: 5px;
+  display: inline;
+  
 }
