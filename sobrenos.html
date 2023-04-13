@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -13,7 +14,7 @@
     />
     <title>AmbComp</title>
     <link rel="stylesheet" href="style2.css" />
-    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon" />
   </head>
 
   <body>
@@ -21,7 +22,7 @@
       <div class="navbar">
         <div class="logo">
           <a href="index.html"
-            ><img src="imagens/logo.png" width="30" height="30" alt=""/>
+            ><img src="imagens/logo.png" width="30" height="30" alt="" />
             Cotemig CEG</a
           >
         </div>
@@ -99,30 +100,52 @@
               <i class="fas fa-check-circle" aria-hidden="true"></i>
             </div>
             <h2 class="card__title">
-              Qualidade.<br />Nosso grupo tem o compromisso de oferecer sempre as informações mais atualizadas
-    aos nossos leitores, buscando a excelência em todos os nossos serviços.
+              Qualidade.<br />Nosso grupo tem o compromisso de oferecer sempre
+              as informações mais atualizadas aos nossos leitores, buscando a
+              excelência em todos os nossos serviços.
             </h2>
           </div>
           <div class="card card-6">
             <div class="card__icon">
               <i class="fas fa-handshake" aria-hidden="true"></i>
-              </div>
-              <h2 class="card__title">
-                Parceria.<br />Estamos comprometidos em estabelecer parcerias sólidas e duradouras com nossos clientes, fornecendo suporte contínuo e soluções personalizadas para ajudá-los a alcançar seus objetivos. 
-              </h2>
             </div>
+            <h2 class="card__title">
+              Parceria.<br />Estamos comprometidos em estabelecer parcerias
+              sólidas e duradouras com nossos clientes, fornecendo suporte
+              contínuo e soluções personalizadas para ajudá-los a alcançar seus
+              objetivos.
+            </h2>
+          </div>
         </div>
       </div>
       <div class="conteudo">
-        <div class="txt-img-1"><img src="imagens/pc.jpeg"alt="" height="700px" width="650px"></div>
-        <div class="textonos ">
-            <h1 class="titulo">Quem somos nós?</h1>
-              <p>
-                O Cotemig CEG (Computing Environments Group) é um grupo de estudantes do segundo ano do ensino médio da Cotemig. Nós somos apaixonados por tecnologia e temos como objetivo explorar o mundo da tecnologia da informação e aplicá-lo em diversos cenários para aprimorar nossas habilidades e conhecimentos. O grupo é composto por estudantes com habilidades e interesses diversos, como programação, design de interface de usuário, segurança da informação, análise de dados e muito mais. 
-              </p>
-              <p>
-                Nosso grupo é dedicado ao trabalho em equipe e à colaboração. Valorizamos a comunicação clara e efetiva e procuramos sempre encontrar maneiras de trabalhar juntos para alcançar nossos objetivos. Somos apaixonados por desafios e estamos sempre em busca de projetos que possam nos proporcionar novas experiências.</p>
-              <p>Em síntese, o Cotemig CEG é um grupo de estudantes que busca sempre aprimorar seus conhecimentos e habilidades na área de tecnologia da informação. </p>
+        <div class="txt-img-1">
+          <img src="imagens/pc.jpeg" alt="" height="700px" width="650px" />
+        </div>
+        <div class="textonos">
+          <h1 class="titulo">Quem somos nós?</h1>
+          <p>
+            O Cotemig CEG (Computing Environments Group) é um grupo de
+            estudantes do segundo ano do ensino médio da Cotemig. Nós somos
+            apaixonados por tecnologia e temos como objetivo explorar o mundo da
+            tecnologia da informação e aplicá-lo em diversos cenários para
+            aprimorar nossas habilidades e conhecimentos. O grupo é composto por
+            estudantes com habilidades e interesses diversos, como programação,
+            design de interface de usuário, segurança da informação, análise de
+            dados e muito mais.
+          </p>
+          <p>
+            Nosso grupo é dedicado ao trabalho em equipe e à colaboração.
+            Valorizamos a comunicação clara e efetiva e procuramos sempre
+            encontrar maneiras de trabalhar juntos para alcançar nossos
+            objetivos. Somos apaixonados por desafios e estamos sempre em busca
+            de projetos que possam nos proporcionar novas experiências.
+          </p>
+          <p>
+            Em síntese, o Cotemig CEG é um grupo de estudantes que busca sempre
+            aprimorar seus conhecimentos e habilidades na área de tecnologia da
+            informação.
+          </p>
         </div>
       </div>
       <div id="alunos">
@@ -130,62 +153,145 @@
         <div class="wrap">
           <div class="box">
             <div class="box-top">
-              <img class="box-image" src="imagens/3e41f870-fc31-499d-8b30-c39a77b58dfc.jfif" alt="Arthur">
+              <img
+                class="box-image"
+                src="imagens/3e41f870-fc31-499d-8b30-c39a77b58dfc.jfif"
+                alt="Arthur"
+              />
               <div class="title-flex">
                 <h3 class="box-title">Arthur Eustáquio</h3>
               </div>
-              <p class="description">Whipped steamed roast cream beans macchiato skinny grinder café. Iced grinder go mocha steamed grounds cultivar panna aroma.</p>
+              <p class="description">
+                Whipped steamed roast cream beans macchiato skinny grinder café.
+                Iced grinder go mocha steamed grounds cultivar panna aroma.
+              </p>
             </div>
-            <a href="#" class="button">Ver currículo</a>
+            <a href="#" class="button modal-trigger" data-modal="modal-name"
+              >Ver currículo</a
+            >
           </div>
-          <div class="box">
-            <div class="box-top">
-              <img class="box-image" src="imagens/5ffcd289-b5b6-4edd-8c10-56292f5712c5.jfif" alt="Artur">
-              <div class="title-flex">
-                <h3 class="box-title">Artur "Jesus" Araújo </h3>
+          <div class="modal" id="modal-name">
+            <div class="modal-sandbox"></div>
+            <div class="modal-box">
+              <div class="modal-header">
+                <div class="close-modal">&#10006;</div>
+                <h1>Arthur Eustáquio</h1>
               </div>
-              <p class="description">Whipped steamed roast cream beans macchiato skinny grinder café. Iced grinder go mocha steamed grounds cultivar panna aroma.</p>
+              <div class="modal-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
+                  soluta saepe, atque, iure quidem maiores non dolores, fuga
+                  eaque voluptatibus corporis accusantium quas. Eligendi velit
+                  eum fugiat eius? Distinctio reiciendis sint error, repellat ut
+                  soluta doloremque, accusamus vitae placeat?
+                </p>
+                <p>
+                  Laboriosam voluptas, iure rem provident laborum culpa atque
+                  fugit inventore sit. Corrupti dolore architecto inventore
+                  officia, odit totam voluptatem laboriosam tempore reiciendis,
+                  et neque, consequuntur. Non, tenetur? Tempore reprehenderit
+                  tenetur nemo asperiores alias commodi assumenda architecto
+                  minima numquam repellendus debitis nulla, rerum officia
+                  itaque, sunt nihil sequi quod perspiciatis, animi quas
+                  voluptates velit aperiam voluptatem.
+                </p>
+                <br />
+                <button class="close-modal">Fechar!</button>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-top">
+              <img
+                class="box-image"
+                src="imagens/5ffcd289-b5b6-4edd-8c10-56292f5712c5.jfif"
+                alt="Artur"
+              />
+              <div class="title-flex">
+                <h3 class="box-title">Artur "Jesus" Araújo</h3>
+              </div>
+              <p class="description">
+                Whipped steamed roast cream beans macchiato skinny grinder café.
+                Iced grinder go mocha steamed grounds cultivar panna aroma.
+              </p>
             </div>
             <a href="#" class="button">Ver currículo</a>
           </div>
           <div class="box">
             <div class="box-top">
-              <img class="box-image" src="imagens/6e70a40e-5211-4cb1-b322-59bb7974320e.jfif" alt="Miguel">
+              <img
+                class="box-image"
+                src="imagens/6e70a40e-5211-4cb1-b322-59bb7974320e.jfif"
+                alt="Miguel"
+              />
               <div class="title-flex">
                 <h3 class="box-title">Miguel Sena</h3>
               </div>
-              <p class="description">Sou desde a infância um estudante apaixonado por tudo relacionado à tecnologia. Tenho grande interesse em inteligência artificial e física, pretendo estudar no exterior para aumentar meus conhecimentos e no futuro trabalhar na área.</p>
+              <p class="description">
+                Sou desde a infância um estudante apaixonado por tudo
+                relacionado à tecnologia. Tenho grande interesse em inteligência
+                artificial e física, pretendo estudar no exterior para aumentar
+                meus conhecimentos e no futuro trabalhar na área.
+              </p>
             </div>
             <a href="#" class="button">Ver currículo</a>
           </div>
           <div class="box">
             <div class="box-top">
-              <img class="box-image" src="imagens/9c4556cb-f044-45f1-a77d-a8b7e2026c6f.jfif" alt="David">
+              <img
+                class="box-image"
+                src="imagens/9c4556cb-f044-45f1-a77d-a8b7e2026c6f.jfif"
+                alt="David"
+              />
               <div class="title-flex">
                 <h3 class="box-title">David Teodoro</h3>
               </div>
-              <p class="description">Eu me chamo David, tenho 16 anos e, quando finalizar o ensino médio, pretendo fazer TI e me especializar na área de Hardware e montagem de computadores, ou no desenvolvimento de sites, já que gosto de Front End.</p>
+              <p class="description">
+                Eu me chamo David, tenho 16 anos e, quando finalizar o ensino
+                médio, pretendo fazer TI e me especializar na área de Hardware e
+                montagem de computadores, ou no desenvolvimento de sites, já que
+                gosto de Front End.
+              </p>
             </div>
             <a href="#" class="button">Ver currículo</a>
           </div>
           <div class="meio">
             <div class="box">
               <div class="box-top">
-                <img class="box-image" src="imagens/b7e6d6c7-67b9-4841-9ef0-fa67d58a5564.jfif" alt="Caio">
+                <img
+                  class="box-image"
+                  src="imagens/b7e6d6c7-67b9-4841-9ef0-fa67d58a5564.jfif"
+                  alt="Caio"
+                />
                 <div class="title-flex">
                   <h3 class="box-title">Caio Eduardo</h3>
                 </div>
-                <p class="description">Sou estudante e aprecio bastante a arte da programação. Tenho o sonho de trabalhar nessa área no futuro, a fim de aprender muito e ter sucesso profissional. Espero expandir meus conhecimentos em programação e evoluir cada vez mais.</p>
+                <p class="description">
+                  Sou estudante e aprecio bastante a arte da programação. Tenho
+                  o sonho de trabalhar nessa área no futuro, a fim de aprender
+                  muito e ter sucesso profissional. Espero expandir meus
+                  conhecimentos em programação e evoluir cada vez mais.
+                </p>
               </div>
               <a href="#" class="button">Ver currículo</a>
             </div>
             <div class="box">
               <div class="box-top">
-                <img class="box-image" src="imagens/21bf60b8-e139-43ed-b30b-05801d152a91.jfif" alt="Fernando">
+                <img
+                  class="box-image"
+                  src="imagens/21bf60b8-e139-43ed-b30b-05801d152a91.jfif"
+                  alt="Fernando"
+                />
                 <div class="title-flex">
                   <h3 class="box-title">Fernando Costa</h3>
                 </div>
-                <p class="description">Eu sou um jovem de 16 anos, filho de estrangeiro, e penso em morar na terra do meu pai quando terminar o ensino médio para trabalhar com programação na Espanha. Gosto de lógica de programação e, modéstia à parte, possuo um incrível raciocínio lógico.</p>
+                <p class="description">
+                  Eu sou um jovem de 16 anos, filho de estrangeiro, e penso em
+                  morar na terra do meu pai quando terminar o ensino médio para
+                  trabalhar com programação na Espanha. Gosto de lógica de
+                  programação e, modéstia à parte, possuo um incrível raciocínio
+                  lógico.
+                </p>
               </div>
               <a href="#" class="button">Ver currículo</a>
             </div>
