@@ -82,7 +82,7 @@ header{
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
-    border-radius: 8px;
+    border-radius: 2px;
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
@@ -718,4 +718,93 @@ button {
   margin: 5px;
   display: inline;
   
+}
+
+/* Conteudo Componentes */
+
+.conteudo-comp{   
+  display: flex;
+  padding: 40px 15px 0 65px;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.conteudo-comp img{
+  height: 600px;
+  width: 600px;
+}
+
+.conteudo-comp .textonos{
+  margin: 0 100px;
+}
+
+.conteudo-comp .textonos p{
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.conteudo-comp .textonos h1{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.central{
+  text-align: center;
+}
+
+.sair-nav{
+  margin-top: 60px;
+}
+
+@media(max-width: 1280px){
+
+  .conteudo-comp{
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 20px;
+  }
+  .conteudo-comp .textonos{
+    margin: 0;
+  }
+  .conteudo-comp .textonos p{
+    text-align: justify;
+  }
+
+  .conteudo-comp h1{
+    text-align: center!important;
+  }
+
+  .conteudo-comp img, #cooler{
+    max-width: 650px;
+    max-height: 650px;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media(max-width: 992px){
+
+  .conteudo-comp{
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 20px;
+  }
+
+  .conteudo-comp h1{
+    text-align: center!important;
+  }
+
+  .conteudo-comp .textonos{
+    margin: 0;
+  }
+  .conteudo-comp .textonos p{
+    text-align: justify;
+  }
+  .conteudo-comp img{
+    max-width: 650px;
+    max-height: 650px;
+    height: 100%;
+    width: 100%;
+  }
 }
