@@ -185,6 +185,10 @@ main{
 #main-container2{
   padding: 30px;
 }
+
+#main-container2 li{
+  margin-top: 10px;
+}
   
 /* CARDS */
 
@@ -192,6 +196,11 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.cards a{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 }
 
 .card {
@@ -819,3 +828,124 @@ button {
     width: 100%;
   }
 }
+
+.textopc{   
+  padding: 40px 65px 0 65px;
+  margin: 0 100px;
+}
+
+.textopc p{
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.textopc h1{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.textopc a{
+  color: rgb(121, 121, 234);
+  text-decoration: none;
+}
+
+.recomendation{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 1280px){
+
+  .textopc{   
+    padding: 40px 65px 0 65px;
+    margin: 0 100px;
+  }
+  
+  .textopc p{
+    text-align: justify;
+    padding-bottom: 10px;
+  }
+  
+  .textopc h1{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+}
+
+@media(max-width: 992px){
+
+  .textopc{
+    margin: 0;
+    padding: 10px;
+  }
+  .textopc p{
+    text-align: justify;
+  }
+
+  .textopc h1{
+    text-align: center!important;
+  }
+}
+
+@media(max-width: 768px){
+
+  .textopc{
+    margin: 0;
+    padding: 10px;
+  }
+  .textopc p{
+    text-align: justify;
+  }
+
+  .textopc h1{
+    text-align: center!important;
+  }
+}
+
+@media(max-width: 576px){
+
+  .textopc{
+    margin: 0;
+    padding: 10px;
+  }
+  .textopc p{
+    text-align: justify;
+  }
+
+  .textopc h1{
+    text-align: center!important;
+  }
+}
+
+@media(max-width: 480px){
+
+  .textopc{
+    margin: 0;
+    padding: 10px;
+  }
+  .textopc p{
+    text-align: justify;
+  }
+
+  .textopc h1{
+    text-align: center!important;
+  }
+}
+
+@media(max-width: 320px){
+
+  .textopc{
+    margin: 0;
+    padding: 10px;
+  }
+  .textopc p{
+    text-align: justify;
+  }
+
+  .textopc h1{
+    text-align: center!important;
+  }
+}
+
