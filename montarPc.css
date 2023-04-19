@@ -1,7 +1,7 @@
 /* Montar PC */
 
 .banner{
-  background-image: url(../imagens/wave_background.svg);
+  background-image: url(imagens/wave_background.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,7 +81,52 @@
   background: #6FBF42 !important;
 }
 
-a{
+.cards a{
   font-weight: unset !important;
   font-size: unset !important;
 }
+
+@media(max-width: 1280px){
+
+  .card{
+    height: 250px !important;
+    width: 350px !important;
+    background: #6FBF42 !important;
+  }
+
+  .montarPc-container-content{
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 20px;
+  }
+  .button-round{
+    font-size: 11px;
+  }
+  .textoPc{
+    margin: 0;
+  }
+  .txt-img-2 img{
+    max-width: 650px;
+    max-height: 650px;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media(max-width: 992px){
+  .montarPc-container-content{
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 20px;
+  }
+  .textoPc{
+    margin: 0;
+  }
+  .txt-img-2 img{
+    max-width: 650px;
+    max-height: 650px;
+    height: 100%;
+    width: 100%;
+  }
+}
+

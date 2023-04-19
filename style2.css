@@ -436,10 +436,6 @@ main{
   gap: 12px;
   margin-bottom: 36px;
 }
-.meio{
-  display: flex;
-  justify-content: center;
-}
 
 .box-image {
   width: 100%;
@@ -954,5 +950,34 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.videos{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .videos iframe{
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .videos iframe{
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .videos iframe{
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .videos iframe{
+    margin-bottom: 10px;
+  }
 }
 
