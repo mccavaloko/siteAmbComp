@@ -8,12 +8,6 @@
     scroll-behavior: smooth;
 }
 
-
-header{
-    background-color: rgba(0,0,0,0.7);
-    z-index: 1;
-}
-
 body{
     height: 100vh;
 }
@@ -36,9 +30,11 @@ a:hover{
 
 header{
     width: 100%;
-    position:fixed;
+    position: fixed;
     top: 0;
     padding: 0 2rem;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
 }
 
 .navbar{
@@ -328,7 +324,7 @@ main{
 }
 
 .textonos p{
-  text-align: justify;
+  text-align: center;
   padding-bottom: 10px;
 }
 
@@ -773,6 +769,10 @@ button {
   text-align: center;
 }
 
+.justify{
+  text-align: justify;
+}
+
 .sair-nav{
   margin-top: 60px;
 }
@@ -955,3 +955,4 @@ button {
   justify-content: center;
   align-items: center;
 }
+
